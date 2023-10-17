@@ -9,7 +9,7 @@ import {
 import { IInventoryService, WorkflowTypes } from "@medusajs/types"
 import { ModuleRegistrationName } from "@medusajs/modules-sdk"
 
-describe("CreateInventoryItem workflow", function () {
+describe.only("CreateInventoryItem workflow", function () {
   let medusaProcess
   let medusaContainer
 

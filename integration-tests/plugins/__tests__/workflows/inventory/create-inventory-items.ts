@@ -53,9 +53,14 @@ describe.only("CreateInventoryItem workflow", function () {
         ],
       }
 
+    const manager = medusaContainer.resolve("manager")
+    const context = {
+      manager,
+    }
+
     const { result, errors, transaction } = await workflow.run({
       input,
-      context: {},
+      context,
       throwOnError: false,
     })
 

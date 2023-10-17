@@ -28,9 +28,10 @@ module.exports = {
     // redis_url: REDIS_URL,
     database_url: DB_URL,
     database_type: "postgres",
+    database_logging: true,
     jwt_secret: "test",
     cookie_secret: "test",
-    database_extra: { idle_in_transaction_session_timeout: 0 },
+    database_extra: { idle_in_transaction_session_timeout: 0, max: 20 },
   },
   featureFlags: {
     workflows: {

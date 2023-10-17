@@ -48,9 +48,7 @@ Since Microtica deploys on your cloud account, here are the resources that the p
 
 ### Medusa Backend
 
-It is assumed that you already have a Medusa backend installed locally. If you don’t, please follow the [quickstart guide](../../development/backend/install.mdx).
-
-Furthermore, your Medusa backend should be configured to work with PostgreSQL and Redis. You can follow the [Configure your Backend documentation](../../development/backend/configurations.md) to learn how to do that.
+It is assumed that you do not already have a Medusa backend installed locally. If you do, your Medusa backend should be configured to work with PostgreSQL and Redis. You can follow the [Configure your Backend documentation](../../development/backend/configurations.md) to learn how to do that.
 
 ### Needed Accounts
 
